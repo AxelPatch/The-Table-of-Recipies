@@ -1,0 +1,97 @@
+<!--create an html page that will be based on tables-->
+<!--The page should have a heade and a footer a left navagation bar, and a main content area-->
+<!---->
+<!---->
+<!DOCTYPE html>
+<html>
+<head>
+<title>The Green Book</title>
+<style>
+    table, th, td{
+
+        border: 1px solid black;
+    }
+   
+    header{
+        background-color: saddlebrown;
+        text-align: center;
+        padding: 5px;
+    }
+    nav{
+        line-height: 30px;
+        background-color: chocolate;
+        height: 300px;
+        width: 150px;
+        float: left;
+        padding: 5px;
+    }    
+    section{
+        width: 350px;
+        float: left;
+        padding: 10px;
+    }
+    footer{
+        background-color: saddlebrown;
+        clear: left;
+        text-align: center;
+        padding: 5px;
+    }
+</style>
+</head>
+<body>
+    <!--This is the header of our website-->
+    <header>
+        <h1>Amish White Bread</h1>
+    </header>
+    <!--this is the left navigation bar-->
+    <nav>
+        <ul>
+            <li><a href="home.html">Home</a> </li>
+            <li><a href="index.html">Ingredients</a></li>
+            <li><a href="insctructions.html">Instructions</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Ingredients</h2>
+        <!--the data for our table starts here-->
+        <table>
+            <!--The Tr stands for one table row, and th <Tr> starts the row and the </Tr> ends the row-->
+            <!--the th tag is the table header tag-->
+            <!--The td tag is for the data that is being put into the table in each row-->
+            <tr>
+                <th>Ingrdient</th>
+                <th>Amount</th>
+            </tr>
+            <tr>
+                <td>Flour</td>
+                <td>6c</td>
+            </tr>
+            <tr>
+                <td>Water</td>
+                <td>2c warm</td>
+            </tr>
+            <tr>
+                <td>Yeast</td>
+                <td>2Tbsp</td>
+            </tr>
+            <tr>
+                <td>Sugar</td>
+                <td>4/3c</td>
+            </tr>
+            <tr>
+                <td>Olive Oil</td>
+                <td>1/4c</td>
+            </tr>
+            <tr>
+                <td>Salt</td>
+                <td>1tsp</td>
+            </tr>
+        </table>
+    </main>
+</body>
+<footer>
+    <p>Created By:<a href="mailto:axelpatch@gmail.com">Axel Peterson</a></p>
+</footer>
+
+
+</html>
